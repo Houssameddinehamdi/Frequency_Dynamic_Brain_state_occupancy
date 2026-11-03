@@ -1,0 +1,13 @@
+# never commit participant data or results
+data/
+demo_data/
+outputs/
+demo_outputs/
+_staging/
+*.nii
+*.nii.gz
+*.tsv
+!docs/*.tsv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
